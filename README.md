@@ -13,7 +13,7 @@ The force control end effector is a cable-driven robotic gripper designed to ens
 - Ergonomic gripper design driven by a linear actuator for precise force transmission.  
 
 ### Firmware Capabilities  
-- Implements a Proportional-Integrator (PI) control loop to regulate motor currents dynamically.  
+- Implements a Proportional-Integrator (PI) control loop on MSP 430 to regulate motor currents dynamically.  
 - Utilizes ADC channels to map analog inputs from a force control knob and load cell into actionable digital values.  
 - Includes safety features like a trigger switch and actuator feedback to maintain operation within predefined limits.  
 
@@ -43,4 +43,6 @@ This project contributes valuable insights for:
 
 - Improve backdrivability in the mechanical setup.  
 - Explore advanced control algorithms for enhanced gripping precision.  
-- Integrate additional sensors for improved feedback and safety.  
+- Integrate additional sensors for improved feedback and safety.
+- Refactor the firmware into a modular file structure.
+- Include debouncing control on the firmware to offset tthe noise and improve accuracy.
