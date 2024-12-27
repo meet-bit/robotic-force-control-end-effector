@@ -46,3 +46,6 @@ This project contributes valuable insights for:
 - Integrate additional sensors for improved feedback and safety.
 - Refactor the firmware into a modular file structure.
 - Include debouncing control on the firmware to offset tthe noise and improve accuracy.
+
+## License and Copyright
+Project work done by Meet Nandu and James Quek for Mech 423 - Mechatronics Prodcut Design at UBC.
